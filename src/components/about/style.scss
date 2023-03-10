@@ -1,0 +1,65 @@
+@import "../header/style.scss";
+
+#about {
+  @include flexBox();
+  align-items: flex-start;
+  margin-block-start: 5rem;
+
+  .image_abt {
+    width: 50%;
+    display: flex;
+    place-items: center;
+    .img_me {
+      display: flex;
+      place-items: center;
+      overflow: hidden;
+      border-radius: 100%;
+      margin: 70px 10px;
+      width: 26rem;
+      height: 26rem;
+      background-color: red;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        max-width: 100%;
+        max-height: 100%;
+      }
+    }
+  }
+  .aboutMe {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    h1 {
+      width: 100%;
+      white-space: nowrap;
+      font-size: 3.6em;
+      font-weight: 700;
+    }
+    p {
+      width: 100%;
+      font-size: 20px;
+      margin-block-end: 20px;
+    }
+    .downloadCvBtn{
+
+      button {
+        white-space: nowrap;
+        width: 8rem;
+        height: 40px;
+        border: none;
+        padding: 10px;
+        border-radius: 50px;
+        font-weight: 600;
+        background-image: linear-gradient(
+          90deg,
+          rgb(237, 159, 86),
+          rgb(235, 110, 93)
+        );
+        color: white;
+        cursor: pointer;
+      }
+    }
+  }
+}

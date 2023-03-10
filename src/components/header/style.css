@@ -1,0 +1,87 @@
+#header {
+  width: 100%;
+  display: flex;
+  place-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: white;
+  position: relative;
+}
+#header .header_box {
+  width: 100%;
+  display: flex;
+  place-items: center;
+  max-width: 1280px;
+  padding: 10px;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+#header .header_box .navlink {
+  width: 100%;
+  display: flex;
+  place-items: center;
+  color: inherit;
+}
+#header .header_box .navlink .active {
+  background-color: red;
+}
+#header .header_box .navlink .dp_box {
+  width: 100%;
+  display: flex;
+  place-items: center;
+  max-width: 45px;
+  padding: 5px;
+}
+#header .header_box .navlink .dp_box .img {
+  width: 100%;
+  display: flex;
+  place-items: center;
+  overflow: hidden;
+  border-radius: 100%;
+}
+#header .header_box .navlink .userName {
+  color: white;
+  white-space: nowrap;
+}
+#header .header_box .navlink span {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+#header .header_box .userName {
+  width: 20rem;
+}
+#header .header_box .other {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+#header .header_box .other .sub {
+  margin: 10px 15px;
+  width: 5rem;
+}
+#header .header_box .contact_btn {
+  width: 7rem;
+}
+#header .header_box .contact_btn button {
+  width: 100%;
+  height: 40px;
+  border: none;
+  padding: 10px;
+  border-radius: 20px;
+  font-weight: 600;
+  background-image: linear-gradient(90deg, rgb(237, 159, 86), rgb(235, 110, 93));
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+#header .header_box .contact_btn button:hover {
+  transform: scale(1.2);
+}
+#header .oulet_box {
+  width: 100%;
+  display: flex;
+  place-items: center;
+  max-width: 1280px;
+  padding: 20px;
+  background-color: transparent;
+}/*# sourceMappingURL=style.css.map */

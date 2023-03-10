@@ -1,0 +1,29 @@
+#rating {
+  background-image: linear-gradient(90deg, rgb(237, 159, 86), rgb(235, 110, 93));
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border-radius: 25px;
+  overflow: hidden;
+  padding: 20px;
+}
+#rating .ratingBox {
+  margin: 0 30px;
+  display: flex;
+  flex-wrap: wrap;
+  border-right: 2px solid #f6c5ac;
+  width: 22rem;
+}
+#rating .ratingBox .rating_img {
+  width: 50px;
+  height: 50px;
+}
+#rating .ratingBox h1 {
+  width: 100%;
+  white-space: nowrap;
+}
+#rating .ratingBox p {
+  width: 100%;
+  font-size: 20px;
+  font-weight: 500;
+}/*# sourceMappingURL=style.css.map */

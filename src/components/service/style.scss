@@ -1,0 +1,73 @@
+@import "../header/style.scss";
+
+#service {
+       ::-webkit-scrollbar {
+            width: 5px;
+          }
+
+          ::-webkit-scrollbar-track {
+            background: #ffffff;
+            border-radius: 4px;
+
+          }
+
+          ::-webkit-scrollbar-thumb {
+            background: #ec7a5c;
+            border: 1px solid #fff;
+            border-radius: 4px;
+          }
+  @include flexBox();
+  flex-wrap: wrap;
+  justify-content: center;
+
+  h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 3.6rem;
+   margin-block-end: 30px;
+  }
+  .grid_box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap:20px;
+    .services {
+      background-image: linear-gradient(
+        360deg,
+        rgb(237, 159, 86),
+        rgb(235, 110, 93)
+      );
+      display: flex;
+      justify-content: center;
+      border-radius: 50px;
+      padding: 20px;
+      .box_services {
+        width: 100%;
+
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        .img_icon_service {
+          margin-top: 30px;
+
+          justify-content: center;
+        }
+        .title_s {
+          font-size: 2.1rem;
+          font-weight: 700;
+          width: 100%;
+          text-align: center;
+        }
+        p {
+          width: 100%;
+          height: 100px;
+          overflow: hidden;
+        
+          padding: 2px;
+
+       
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+ */
+
+body {
+  background-image: linear-gradient(90deg, rgb(101, 58, 59), rgb(33, 34, 65));
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #262340;
+  
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ec7a5c;
+  
+  border: 1px solid #262340;
+  border-radius: 4px;
+}

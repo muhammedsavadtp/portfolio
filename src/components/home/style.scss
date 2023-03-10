@@ -1,0 +1,107 @@
+@import "../header/style.scss";
+
+#homePage {
+  @include flexBox();
+  align-items: flex-start;
+  flex-wrap: wrap;
+  .content {
+    width: 50%;
+    position: relative;
+
+    .quickIntro {
+      @include flexBox();
+      flex-wrap: wrap;
+
+      position: absolute;
+      top: 0;
+      left: 0;
+      transform: translate(0%, 25%);
+
+      .heading {
+        white-space: nowrap;
+        font-size: 5em;
+        font-weight: 700;
+      }
+      p {
+        width: 100%;
+        font-size: 18px;
+      }
+      .btn_ltsk {
+        @include flexBox();
+        white-space: nowrap;
+        width: 8.5rem;
+        margin-top: 30px;
+        justify-content: flex-start;
+        cursor: pointer;
+        color: #eb735c;
+        position: relative;
+        transition: all 0.3s ease-in-out;
+        span {
+          margin-right: 10px;
+          text-transform: uppercase;
+        }
+        .arrowbtn {
+          position: absolute;
+          top: 0;
+          left: 0;
+          transform: translate(6rem, 0);
+         
+        }
+        &:hover .arrowbtn {
+          
+          animation: forward 1s infinite;
+          animation-timing-function: linear;
+          animation-fill-mode: forwards;
+          
+        }
+
+        @keyframes forward {
+          0% {
+            transform: translate(6rem, 0);
+          }
+          50% {
+            transform: translate(8rem, 0);
+          }
+          100% {
+            transform: translate(6rem, 0);
+          }
+        }
+      }
+    }
+  }
+  .body_image {
+    @include flexBox();
+    justify-content: center;
+    width: 35rem;
+    height: 40rem;
+    padding: 5px;
+
+    .img_bx_bd {
+      display: flex;
+      place-items: center;
+      width: auto;
+      overflow: hidden;
+      border-radius: 13rem;
+      max-width: 35rem;
+      margin: 0px 70px;
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+  .publicProfiles {
+    @include flexBox();
+  
+    .icon_box {
+      display: flex;
+      place-items: center;
+      margin: 10px 8rem;
+      max-width: 100%;
+       img{
+        cursor: pointer;
+       }
+    }
+  }
+}

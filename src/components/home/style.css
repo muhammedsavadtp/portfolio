@@ -1,0 +1,192 @@
+#header {
+  width: 100%;
+  display: flex;
+  place-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: white;
+  position: relative;
+}
+#header .header_box {
+  width: 100%;
+  display: flex;
+  place-items: center;
+  max-width: 1280px;
+  padding: 10px;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+#header .header_box .navlink {
+  width: 100%;
+  display: flex;
+  place-items: center;
+  color: inherit;
+}
+#header .header_box .navlink .active {
+  background-color: red;
+}
+#header .header_box .navlink .dp_box {
+  width: 100%;
+  display: flex;
+  place-items: center;
+  max-width: 45px;
+  padding: 5px;
+}
+#header .header_box .navlink .dp_box .img {
+  width: 100%;
+  display: flex;
+  place-items: center;
+  overflow: hidden;
+  border-radius: 100%;
+}
+#header .header_box .navlink .userName {
+  color: white;
+  white-space: nowrap;
+}
+#header .header_box .navlink span {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+#header .header_box .userName {
+  width: 20rem;
+}
+#header .header_box .other {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+#header .header_box .other .sub {
+  margin: 10px 15px;
+  width: 5rem;
+}
+#header .header_box .contact_btn {
+  width: 7rem;
+}
+#header .header_box .contact_btn button {
+  width: 100%;
+  height: 40px;
+  border: none;
+  padding: 10px;
+  border-radius: 20px;
+  font-weight: 600;
+  background-image: linear-gradient(90deg, rgb(237, 159, 86), rgb(235, 110, 93));
+  color: white;
+  cursor: pointer;
+}
+#header .header_box .contact_btn button:hover {
+  transform: scale(1.2);
+}
+#header .oulet_box {
+  width: 100%;
+  display: flex;
+  place-items: center;
+  max-width: 1280px;
+  padding: 20px;
+  background-color: transparent;
+}
+
+#homePage {
+  width: 100%;
+  display: flex;
+  place-items: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+#homePage .content {
+  width: 50%;
+  position: relative;
+}
+#homePage .content .quickIntro {
+  width: 100%;
+  display: flex;
+  place-items: center;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(0%, 25%);
+}
+#homePage .content .quickIntro .heading {
+  white-space: nowrap;
+  font-size: 5em;
+  font-weight: 700;
+}
+#homePage .content .quickIntro p {
+  width: 100%;
+  font-size: 18px;
+}
+#homePage .content .quickIntro .btn_ltsk {
+  width: 100%;
+  display: flex;
+  place-items: center;
+  white-space: nowrap;
+  width: 8.5rem;
+  margin-top: 30px;
+  justify-content: flex-start;
+  cursor: pointer;
+  color: #eb735c;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+}
+#homePage .content .quickIntro .btn_ltsk span {
+  margin-right: 10px;
+  text-transform: uppercase;
+}
+#homePage .content .quickIntro .btn_ltsk .arrowbtn {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(6rem, 0);
+}
+#homePage .content .quickIntro .btn_ltsk:hover .arrowbtn {
+  animation: forward 1s infinite;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+@keyframes forward {
+  0% {
+    transform: translate(6rem, 0);
+  }
+  50% {
+    transform: translate(8rem, 0);
+  }
+  100% {
+    transform: translate(6rem, 0);
+  }
+}
+#homePage .body_image {
+  width: 100%;
+  display: flex;
+  place-items: center;
+  justify-content: center;
+  width: 35rem;
+  height: 40rem;
+  padding: 5px;
+}
+#homePage .body_image .img_bx_bd {
+  display: flex;
+  place-items: center;
+  width: auto;
+  overflow: hidden;
+  border-radius: 13rem;
+  max-width: 35rem;
+  margin: 0px 70px;
+}
+#homePage .body_image .img_bx_bd img {
+  width: 100%;
+  height: 100%;
+}
+#homePage .publicProfiles {
+  width: 100%;
+  display: flex;
+  place-items: center;
+}
+#homePage .publicProfiles .icon_box {
+  display: flex;
+  place-items: center;
+  margin: 10px 8rem;
+  max-width: 100%;
+}
+#homePage .publicProfiles .icon_box img {
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */

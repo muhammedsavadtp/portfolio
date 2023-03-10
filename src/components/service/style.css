@@ -1,0 +1,148 @@
+#header {
+  width: 100%;
+  display: flex;
+  place-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: white;
+  position: relative;
+}
+#header .header_box {
+  width: 100%;
+  display: flex;
+  place-items: center;
+  max-width: 1280px;
+  padding: 10px;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+#header .header_box .navlink {
+  width: 100%;
+  display: flex;
+  place-items: center;
+  color: inherit;
+}
+#header .header_box .navlink .active {
+  background-color: red;
+}
+#header .header_box .navlink .dp_box {
+  width: 100%;
+  display: flex;
+  place-items: center;
+  max-width: 45px;
+  padding: 5px;
+}
+#header .header_box .navlink .dp_box .img {
+  width: 100%;
+  display: flex;
+  place-items: center;
+  overflow: hidden;
+  border-radius: 100%;
+}
+#header .header_box .navlink .userName {
+  color: white;
+  white-space: nowrap;
+}
+#header .header_box .navlink span {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+#header .header_box .userName {
+  width: 20rem;
+}
+#header .header_box .other {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+#header .header_box .other .sub {
+  margin: 10px 15px;
+  width: 5rem;
+}
+#header .header_box .contact_btn {
+  width: 7rem;
+}
+#header .header_box .contact_btn button {
+  width: 100%;
+  height: 40px;
+  border: none;
+  padding: 10px;
+  border-radius: 20px;
+  font-weight: 600;
+  background-image: linear-gradient(90deg, rgb(237, 159, 86), rgb(235, 110, 93));
+  color: white;
+  cursor: pointer;
+}
+#header .header_box .contact_btn button:hover {
+  transform: scale(1.2);
+}
+#header .oulet_box {
+  width: 100%;
+  display: flex;
+  place-items: center;
+  max-width: 1280px;
+  padding: 20px;
+  background-color: transparent;
+}
+
+#service {
+  width: 100%;
+  display: flex;
+  place-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#service ::-webkit-scrollbar {
+  width: 5px;
+}
+#service ::-webkit-scrollbar-track {
+  background: #ffffff;
+  border-radius: 4px;
+}
+#service ::-webkit-scrollbar-thumb {
+  background: #ec7a5c;
+  border: 1px solid #fff;
+  border-radius: 4px;
+}
+#service h1 {
+  width: 100%;
+  text-align: center;
+  font-size: 3.6rem;
+  -webkit-margin-after: 30px;
+          margin-block-end: 30px;
+}
+#service .grid_box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 20px;
+}
+#service .grid_box .services {
+  background-image: linear-gradient(360deg, rgb(237, 159, 86), rgb(235, 110, 93));
+  display: flex;
+  justify-content: center;
+  border-radius: 50px;
+  padding: 20px;
+}
+#service .grid_box .services .box_services {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#service .grid_box .services .box_services .img_icon_service {
+  margin-top: 30px;
+  justify-content: center;
+}
+#service .grid_box .services .box_services .title_s {
+  font-size: 2.1rem;
+  font-weight: 700;
+  width: 100%;
+  text-align: center;
+}
+#service .grid_box .services .box_services p {
+  width: 100%;
+  height: 100px;
+  overflow: hidden;
+  padding: 2px;
+}/*# sourceMappingURL=style.css.map */
